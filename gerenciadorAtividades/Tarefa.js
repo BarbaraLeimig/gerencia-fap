@@ -28,5 +28,4 @@ export default class Tarefa {
   criarTarefa() {}
 }
 
-//module.exports = Tarefa;
 export { Tarefa };
