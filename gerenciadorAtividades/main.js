@@ -1,6 +1,6 @@
 import input from "readline-sync";
 import readline from "readline-sync";
-import GerenciadorTarefas from "./gerenciadorTarefas.js";
+import GerenciadorTarefas from "./GerenciadorTarefas.js";
 
 let loop = true;
 
