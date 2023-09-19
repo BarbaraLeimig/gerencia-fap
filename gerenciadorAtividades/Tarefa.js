@@ -24,8 +24,6 @@ export default class Tarefa {
   set setDataDeEntrega(dataDeEntrega) {
     this._dataDeEntrega = dataDeEntrega;
   }
-
-  criarTarefa() {}
 }
 
 export { Tarefa };
