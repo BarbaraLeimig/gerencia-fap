@@ -1,6 +1,6 @@
 import input from "readline-sync";
 import readline from "readline-sync";
-import GerenciadorTarefas from "./gerenciadorTarefas.js";
+import GerenciadorTarefas from "./GerenciadorTarefas.js";
 
 let loop = true;
 
@@ -49,7 +49,6 @@ while (loop) {
 
     case 4:
       gerenciador.atualizarTarefas();
-
       readline.keyInPause();
       console.clear();
       break;
@@ -68,8 +67,8 @@ while (loop) {
 
     case 0:
       console.log("\n=======================================");
-      console.log("\nSaindo do sistema");
-      console.log("=========================================");
+      console.log("Saindo do sistema");
+      console.log("=======================================");
       loop = false;
       break;
 
