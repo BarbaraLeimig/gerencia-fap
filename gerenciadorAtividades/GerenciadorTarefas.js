@@ -142,10 +142,11 @@ export default class GerenciadorTarefas extends Tarefa {
   }
 
   ListarPorStatus() {
-    console.log("\n============ LISTA DE TAREFAS =============");
+    console.log("\n============= LISTA DE TAREFAS ==============");
     const status = input.question(
       "Entre com o status que voce deseja buscar: \n"
     );
+    console.clear();
 
     let objetoTarefa = null;
 
@@ -165,7 +166,7 @@ export default class GerenciadorTarefas extends Tarefa {
     if (objetoTarefa === null) {
       throw console.error("\nSTATUS INVÁLIDO OU INEXISTENTE!!");
     }
-    console.log("=============================================");
+    console.log("============================================");
   }
 }
 
